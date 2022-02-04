@@ -1,6 +1,6 @@
 ﻿namespace testbot.Model
 {
-    public class BookConfiguration
+    public class BotConfiguration
     {
         public string Token { get; set; }
         public string HostAddress { get; set; } 
