@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "msvUlZw+2opErItz1H3NN3ZZCEvztDQs4EFIhQx8J9+LCkeTQokl/J4wpjcxF93wRnrVxDyMdsu5icZd3ePa4w==",
+  "dgSpecHash": "pF9CODfAnL2KOPjZfRJlgyn1OoZRuoULqh+yVsOcmXZuNYeGsT/RNVMeC782Uq/yO5iDY88h0qRCc94kcMvb/A==",
   "success": true,
   "projectFilePath": "D:\\dotnet\\dsa\\testbot\\testbot\\testbot.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jmlkh\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\jmlkh\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.13\\microsoft.aspnetcore.jsonpatch.5.0.13.nupkg.sha512",
+    "C:\\Users\\jmlkh\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\5.0.13\\microsoft.aspnetcore.mvc.newtonsoftjson.5.0.13.nupkg.sha512",
     "C:\\Users\\jmlkh\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\jmlkh\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.13\\microsoft.entityframeworkcore.5.0.13.nupkg.sha512",
     "C:\\Users\\jmlkh\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.13\\microsoft.entityframeworkcore.abstractions.5.0.13.nupkg.sha512",
@@ -23,6 +25,7 @@
     "C:\\Users\\jmlkh\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\jmlkh\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\jmlkh\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\jmlkh\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\jmlkh\\.nuget\\packages\\npgsql\\5.0.5\\npgsql.5.0.5.nupkg.sha512",
     "C:\\Users\\jmlkh\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\5.0.6\\npgsql.entityframeworkcore.postgresql.5.0.6.nupkg.sha512",
     "C:\\Users\\jmlkh\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
