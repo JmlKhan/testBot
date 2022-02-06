@@ -38,8 +38,8 @@ namespace testbot
                new TelegramBotClient(BotConfig.Token, httpClient));
 
             services.AddScoped<HandleUpdateService>();
-            
-            services.AddControllers();
+
+            services.AddControllers().AddNewtonsoftJson();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -48,18 +48,27 @@ namespace testbot
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "testbot v1"));
+               
             }
 
             app.UseHttpsRedirection();
 
             app.UseRouting();
 
+            app.UseCors();
+
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
+                var token = BotConfig.Token;
+
+                endpoints.MapControllerRoute(
+                    name: "tgwebhook",
+                    pattern : $"bot/{token}",
+                    new { controller = "Webhook", action = "Post"}
+                    );
+
                 endpoints.MapControllers();
             });
         }
